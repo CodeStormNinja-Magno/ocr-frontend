@@ -1,11 +1,11 @@
 // ============================================================
-// 📄 Footer.tsx — Pie de página de la aplicación OCR Extractor
+// Footer.tsx — Pie de página de la aplicación OCR Extractor
 // ============================================================
 // Muestra información de derechos de autor y créditos del equipo.
 // Se adapta dinámicamente al tema mediante props de color y borde.
 // ============================================================
 
-// 🔹 Tipado de propiedades que recibe el componente
+// Tipado de propiedades que recibe el componente
 interface FooterProps {
   color: string;        // Color principal del texto del footer
   borderColor: string;  // Color del borde superior (separa visualmente el pie)
@@ -13,7 +13,7 @@ interface FooterProps {
 
 
 // ============================================================
-// 🔹 Componente principal: Footer
+// Componente principal: Footer
 // ------------------------------------------------------------
 // Renderiza el pie de página con:
 //   - Año actual dinámico

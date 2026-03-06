@@ -1,27 +1,62 @@
+/* ============================================================
+Header.css — Estilos del encabezado principal (App Header)
+===============================================================
+Define la estructura y apariencia del encabezado superior
+de la aplicación OCR Extractor, incluyendo:
+  - Título de la app
+  - Botón de cambio de tema (dark/light)
+============================================================ */
+
+
+/* ============================================================
+Contenedor principal del header
+---------------------------------------------------------------
+Estructura flexible que distribuye el título a la izquierda
+y los controles (como el cambio de tema) a la derecha.
+============================================================ */
 .app-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 40px;
+  width: 100%;                       /* Ocupa todo el ancho disponible */
+  display: flex;                     /* Distribución en fila */
+  justify-content: space-between;    /* Separación entre título y botón */
+  align-items: center;               /* Centrado vertical de los elementos */
+  padding: 18px 40px;                /* Espaciado interno */
   transition: border-color 0.3s ease, color 0.3s ease;
+  /* Transición suave al cambiar de tema o color de borde */
 }
 
+
+/* ============================================================
+Título de la aplicación
+---------------------------------------------------------------
+Define la tipografía y estilo del nombre principal de la app.
+============================================================ */
 .app-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin: 0;
-  user-select: none;
+  font-size: 1.8rem;                 /* Tamaño grande y legible */
+  font-weight: 700;                  /* Negrita */
+  margin: 0;                         /* Elimina márgenes por defecto */
+  user-select: none;                 /* Evita que el texto sea seleccionado */
 }
 
-/* Botón de cambio de tema */
+
+/* ============================================================
+Botón de cambio de tema
+---------------------------------------------------------------
+Botón minimalista que alterna entre los modos claro y oscuro.
+============================================================ */
 .theme-toggle-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.25s ease;
+  background: transparent;           /* Fondo transparente para integrarse */
+  border: none;                      /* Sin borde visible */
+  cursor: pointer;                   /* Indicador de clic */
+  transition: transform 0.25s ease;  /* Suaviza la animación al interactuar */
 }
 
+
+/* ============================================================
+Efecto hover del botón
+---------------------------------------------------------------
+Amplía ligeramente el tamaño al pasar el cursor, dando
+una sensación de respuesta visual sin romper el diseño.
+============================================================ */
 .theme-toggle-btn:hover {
   transform: scale(1.1);
 }

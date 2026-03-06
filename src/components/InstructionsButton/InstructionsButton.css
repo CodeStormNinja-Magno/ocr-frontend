@@ -1,5 +1,5 @@
 /* ============================================================
-📄 Instructions.css — Estilos para sección de instrucciones
+Instructions.css — Estilos para sección de instrucciones
 ===============================================================
 Este módulo define la apariencia de la sección que muestra
 o activa instrucciones, tutoriales o ayudas interactivas
@@ -11,7 +11,7 @@ Incluye:
 
 
 /* ============================================================
-🔹 Contenedor principal
+Contenedor principal
 ---------------------------------------------------------------
 Centrado horizontalmente, con separación del contenido superior.
 ============================================================ */
@@ -22,7 +22,7 @@ Centrado horizontalmente, con separación del contenido superior.
 
 
 /* ============================================================
-🔹 Botón principal de instrucciones
+Botón principal de instrucciones
 ---------------------------------------------------------------
 Estilo llamativo con color rojo principal, bordes redondeados
 y sombra ligera para dar efecto de relieve.
@@ -40,7 +40,7 @@ y sombra ligera para dar efecto de relieve.
 
 
 /* ============================================================
-🔹 Efecto hover del botón
+Efecto hover del botón
 ---------------------------------------------------------------
 Al pasar el cursor, se oscurece ligeramente el color y
 aumenta el tamaño para dar una respuesta visual inmediata.

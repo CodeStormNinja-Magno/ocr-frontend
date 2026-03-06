@@ -71,3 +71,4 @@ Desarrolado por Cobra-Pixel
 Si este proyecto te resulto util, deja una estrellita en el repositorio.
 Reporta errores o sugiere mejoras abriendo un Issye o un Pull Request en:
 https://github.com/Cobra-Pixel/ocr-frontend
+Commit de Prueba cuenta nueva
